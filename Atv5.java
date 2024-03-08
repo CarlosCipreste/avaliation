@@ -12,7 +12,7 @@ public class Atv5 {
 
         for(int i=0;i<palavra.length();i++){
             letra = palavra.charAt(i);
-            novaPalavra = letra+novaPalavra;
+            novaPalavra = letra+novaPalavra;// Cada letra é colocada uma na frente da outra inversamente
         }
         System.out.println("Palavra Original:" + palavra);
         System.out.println("Palavra invertida:" + novaPalavra);
